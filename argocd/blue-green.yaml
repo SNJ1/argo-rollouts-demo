@@ -6,11 +6,11 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/nitishfy/argo-rollouts-demo
+    repoURL: git@github.com:SNJ1/argo-rollouts-demo.git
     path: manifests/blue-green
     targetRevision: HEAD
   destination:
-    server: https://kubernetes.default.svc
+    server: https://34.116.174.116
     namespace: blue-green
   syncPolicy:
     syncOptions:
